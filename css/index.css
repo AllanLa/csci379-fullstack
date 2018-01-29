@@ -1,13 +1,17 @@
 h1{
-	color: FD6064;
+	color: #FD6064;
 }
 
 h2{
-	color: FFD160;
+	color: #FFD160;
 }
 
 span{
-	color: 313237;
+	color: #313237;
+}
+
+body{
+	background-image: url("css/dark-circle.png");
 }
 
 /* 141419 a light black color */ 
