@@ -10,8 +10,63 @@ span{
 	color: #313237;
 }
 
-body{
-	background-image: url("css/dark-circle.png");
+#profile{
+	float: right;
+	top: -40px;
+	min-height: 100px;
+	min-width: 100px;
+	max-height: 175px;
+	max-width: 175px;
 }
+
+.project{
+	float: left;
+	width: 33%;
+}
+
+.title{
+	border-bottom: 3px solid black;
+	max-width: 320px;
+}
+
+.boarder{
+	border: 1px solid black;
+	outline-color: black;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media (min-width: 768px) and (max-width: 981px) {
+  .wrap {
+    width: auto;
+  }
+  .project{
+  	width: 50%;
+  }
+  #project3{
+  	width: 100%;
+  }
+}
+
+@media (max-width: 767px){
+  .wrap {
+  	clear: both;
+    width: auto;
+  }
+  .project{
+  	clear: both;
+  	width: 100%;
+  }
+  #project3{
+  	clear: both;
+  	width: 100%;
+  }
+}
+
 
 /* 141419 a light black color */ 
