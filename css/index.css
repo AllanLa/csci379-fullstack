@@ -27,6 +27,10 @@ article{
   margin-right: 200px;
 }
 
+#course{
+  margin-right: 4px;
+}
+
 #header{
   text-align: center;
 }
@@ -86,6 +90,7 @@ article{
  box-sizing: border-box;
  margin-left: 0;
  margin-right: 0;
+ padding-right: 2px;
 }
 
 /* 141419 a light black color 
