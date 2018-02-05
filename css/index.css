@@ -10,6 +10,10 @@ span{
 	color: #313237;
 }
 
+article{
+  background-color: #e5e5e5;
+}
+
 #profile{
 	float: right;
 	top: -40px;
@@ -19,9 +23,17 @@ span{
 	max-width: 175px;
 }
 
+#profileDescription{
+  margin-right: 200px;
+}
+
+#header{
+  text-align: center;
+}
+
 .project{
 	float: left;
-	width: 33%;
+	width: 33.33%;
 }
 
 .title{
@@ -32,6 +44,7 @@ span{
 .boarder{
 	border: 1px solid black;
 	outline-color: black;
+
 }
 
 .row:after {
@@ -69,4 +82,13 @@ span{
 }
 
 
-/* 141419 a light black color */ 
+*{
+ box-sizing: border-box;
+ margin-left: 0;
+ margin-right: 0;
+}
+
+/* 141419 a light black color 
+
+box-sizing:boarder-box;
+*/ 
