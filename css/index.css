@@ -21,7 +21,9 @@ article{
 	min-width: 100px;
 	max-height: 175px;
 	max-width: 175px;
+  border-radius: 50%;
 }
+
 
 #profileDescription{
   margin-right: 200px;
@@ -56,6 +58,17 @@ article{
     display: table;
     clear: both;
 }
+
+#tm-footer {
+height: 50px;
+background: #1a1a1a;
+margin-top: 30px;
+}
+
+#tm-footer-text {
+ color: white; 
+}
+
 
 
 @media (min-width: 768px) and (max-width: 981px) {

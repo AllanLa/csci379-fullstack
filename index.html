@@ -4,27 +4,32 @@
     <head>
         <meta charset="utf-8">
         <title>Portfolio</title>
-        <link rel = "stylesheet" href="css/index.css"/>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">        
+        <link rel = "stylesheet" href="css/index.css"/>        
     </head>
 
-    <body="imgs/circles-dark.png">      
+    <body background="imgs/circles-dark.png">      
         <h1 id ="header">Web Portfolio</h1>
 
-        <section>
-            <h2 class = "title" >Allan La, al037@bucknell.edu</h2>
-            <img src="imgs/profile.jpg" alt="Profile Picture" id="profile">
-            <article class = "boarder" id ="profileDescription">I am an Asian American and a current senior at Bucknell University studying Computer Science and Engineering! As a first generation college student pursuing the American Dream, I am passionate about using my education to give back to my community and family. Calgary, Canada is my birth place but Boston will always be my home. I immigrated from Canada to Boston when I was 6 and lived here ever since. Growing up, I enjoyed activities such as Yu-Gi-Oh, basketball, break-dancing, tennis, gymnastics, football, and so much more. It was during my 10th grade at my high school when I took my first computer science course and fell in love with subject ever since. I lived in the projects for most of my life. I remember what it was like to have a house back in Canada. One of my main goals in life is to move my family out of the projects and back into an actual house. Other goals I strive to reach include learning as much as I can from companies I will be working for and using everything I learned to eventually start my own company! CSCI-379 Full Stack Development, Professor Alan Marchiori, Bucknell University, 2018</article>
-        </section>
+        <div class = "container">
+            <section>
+                <h2 >Allan La, al037@bucknell.edu</h2>
+                <img src="imgs/profile.jpg" alt="Profile Picture" id="profile">
+                <article class = "boarder" id ="profileDescription">I am an Asian American and a current senior at Bucknell University studying Computer Science and Engineering! As a first generation college student pursuing the American Dream, I am passionate about using my education to give back to my community and family. Calgary, Canada is my birth place but Boston will always be my home. I immigrated from Canada to Boston when I was 6 and lived here ever since. Growing up, I enjoyed activities such as Yu-Gi-Oh, basketball, break-dancing, tennis, gymnastics, football, and so much more. It was during my 10th grade at my high school when I took my first computer science course and fell in love with subject ever since. I lived in the projects for most of my life. I remember what it was like to have a house back in Canada. One of my main goals in life is to move my family out of the projects and back into an actual house. Other goals I strive to reach include learning as much as I can from companies I will be working for and using everything I learned to eventually start my own company! CSCI-379 Full Stack Development, Professor Alan Marchiori, Bucknell University, 2018</article>
+            </section>
+        </div>
 
+        <div class = "container">
+            <section >
+                <h1>Sample Course Work</h1>
+                <article class = "boarder">Through out the full stack development course, we will be completing several projects to show our understanding of the web development process. This website will serve as a portfolio to showcase the projects we completed in this course. Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text </article>
+            </section>
+        </div>
 
-        <section >
-            <h1>Sample Course Work</h1>
-            <article id = "course" class = "boarder">Through out the full stack development course, we will be completing several projects to show our understanding of the web development process. This website will serve as a portfolio to showcase the projects we completed in this course. Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text </article>
-        </section>
-
-        <div class ="row">
-            <div class ="wrap">
-                <section class ="project">
+        <div class = "container">
+            <div class ="row">
+                <section class="col-sm-12 col-md-6 col-lg-4">
                     <h2>Font Fun</h2>
                         <article class = "boarder"> 
                             No framework CSS files should even be referenced in your index.html, even if you are not using them. You are going to create your own framework from scratch. You must implement the following breakpoints that will be considered desktop, tablet, and mobile. The browser should display a desktop version of the site when the width of the browser window is 992px and above. Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. The mobile view should appear only if the width of the browser is equal to or less than 767px. <a href="fontfun.html">Font Fun</a>
@@ -33,21 +38,35 @@
 
 
 
-                <section class ="project">
+                <section class="col-sm-12 col-md-6 col-lg-4">
                     <h2>Latin Scripture</h2>
                         <article class = "boarder">
                             Chs. 1-38 reflect a great deal of what we know from other sources about ancient Mesopotamian life and culture. Creation, genealogies, destructive floods, geography and mapmaking, construction techniques, migrations of peoples, sale and purchase of land, legal customs and procedures, sheepherding and cattle-raising -- all these subjects and many others were matters of vital concern to the peoples of Mesopotamia during this time. They were also of interest to the individuals, families and tribes of whom we read in the first 38 chapters of Genesis. The author appears to locate Eden, humankind's first home, in or near Mesopotamia; the tower of Babel was built there; Abram was born there; Isaac took a wife from there; and Jacob lived there for 20 years. Although these patriarchs settled in Canaan, their original homeland was Mesopotamia.
                         </article>
                 </section>
-            </div>
 
-            <section class ="project" id="project3">
-                <h2>Jeremy Lin</h2>
-                    <article class = "boarder">
-                        Born in Palo Alto, California, in 1988, Jeremy Lin excelled at basketball in high school and in college at Harvard University. He signed with the Golden State Warriors for the 2010-2011 season. After two rejections, Lin ended up with the New York Knicks for the next season. There he quickly became a basketball phenomenon, helping the team secure a string of wins in February 2012. A former college hoops star, Jeremy Lin initially floundered in the NBA. Soon after he was picked up by the New York Knicks, however, Lin proved that he was no underdog. He helped drive the team to a string of victories in February 2012.
-                    </article>
-            </section> 
+
+                <section class="col-sm-12 col-md-12 col-lg-4">
+                    <h2>Jeremy Lin</h2>
+                        <article class = "boarder">
+                            Born in Palo Alto, California, in 1988, Jeremy Lin excelled at basketball in high school and in college at Harvard University. He signed with the Golden State Warriors for the 2010-2011 season. After two rejections, Lin ended up with the New York Knicks for the next season. There he quickly became a basketball phenomenon, helping the team secure a string of wins in February 2012. A former college hoops star, Jeremy Lin initially floundered in the NBA. Soon after he was picked up by the New York Knicks, however, Lin proved that he was no underdog. He helped drive the team to a string of victories in February 2012.
+                        </article>
+                </section> 
+            </div>
         </div>
+
+            <footer class="tm-footer", id = "tm-footer">                
+                    <p class="text-center tm-footer-text" id = "tm-footer-text">Allan La, Computer Science & Engineering, Class of 2018, Contact: al037@bucknell.edu                        
+                        <a href="https://www.linkedin.com/in/allanla/" target="_blank"> 
+                            <img src="imgs/LinkedIn.png" width="30" height="30" border="0"> 
+                        </a>
+
+                        <a href="https://github.com/AllanLa" target="_blank"> 
+                            <img src="imgs/github.png" width="30" height="30" border="0"> 
+                        </a>                            
+                    </p>                    
+            </footer> 
+        
 
     </body>
 
