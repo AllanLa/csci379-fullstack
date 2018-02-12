@@ -32,6 +32,16 @@
     background-size:     cover;
 }
 
+.tm-title{
+  text-align: center;
+}
+
+.logo{
+  height: 30px;
+  width: 30px;
+  border: 0px;
+}
+
 h3 { 
    position: absolute; 
    top: 115px; 
