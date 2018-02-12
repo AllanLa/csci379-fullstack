@@ -1,73 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <head>
-        <meta charset="utf-8">
-        <title>Portfolio</title>
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">        
-        <link rel = "stylesheet" href="css/index.css"/>        
-    </head>
+    <title>Allan La Portfolio</title>
+<!--
+Lumino Theme
+http://www.templatemo.com/tm-483-lumino
+-->
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400">   <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">                <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
+    <link rel="stylesheet" href="css/magnific-popup.css">                                     <!-- Magnific pop up style -->
+    <link rel="stylesheet" href="css/templatemo-style.css">
+    <link rel="stylesheet" href="css/personal.css">                                    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <![endif]-->
+</head>
 
-    <body background="imgs/circles-dark.png">      
-        <h1 id ="header">Web Portfolio</h1>
+    <body id="top" class="home">
+       
+        <div class="container-fluid">
+            <div class="row">
+              
+                <div class="tm-navbar-container">
+                
+                <!-- navbar   -->
+                <nav class="navbar navbar-full navbar-fixed-top">
 
-        <div class = "container">
-            <section>
-                <h2 >Allan La, al037@bucknell.edu</h2>
-                <img src="imgs/profile.jpg" alt="Profile Picture" id="profile">
-                <article class = "boarder" id ="profileDescription">I am an Asian American and a current senior at Bucknell University studying Computer Science and Engineering! As a first generation college student pursuing the American Dream, I am passionate about using my education to give back to my community and family. Calgary, Canada is my birth place but Boston will always be my home. I immigrated from Canada to Boston when I was 6 and lived here ever since. Growing up, I enjoyed activities such as Yu-Gi-Oh, basketball, break-dancing, tennis, gymnastics, football, and so much more. It was during my 10th grade at my high school when I took my first computer science course and fell in love with subject ever since. I lived in the projects for most of my life. I remember what it was like to have a house back in Canada. One of my main goals in life is to move my family out of the projects and back into an actual house. Other goals I strive to reach include learning as much as I can from companies I will be working for and using everything I learned to eventually start my own company! CSCI-379 Full Stack Development, Professor Alan Marchiori, Bucknell University, 2018</article>
-            </section>
-        </div>
+                    <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
+                        &#9776;
+                    </button>
+                        
+                    <div class="collapse navbar-toggleable-sm" id="tmNavbar">                            
 
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#top">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#tm-section-3">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#sample">Sample Course Work</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                  
+                </nav>
+
+              </div>  
+
+           </div>
+
+           <div class="row">
+                <div class="tm-intro">
+
+                    <section id="tm-section-1">                        
+                        <div class="tm-container text-xs-center tm-section-1-inner">
+                            <img src="img/profile.jpg" alt="Logo" class="tm-logo">
+                            <h1 class="tm-site-name">Allan La</h1>
+                            <p class="tm-intro-text">Welcome to my Portfolio</p>
+                            <p class="tm-intro-text">al037@bucknell.edu</p>
+                            <a href="#tm-section-2" class="tm-intro-link">Begin</a>    
+                        </div>                                               
+                   </section>
+
+                </div>
+            </div>
+
+            <div class="row gray-bg">                
+                <div id="tm-section-3" class="tm-section" >
+                    <div class="tm-container tm-container-wide">
+                            <div class="col-12 tm-news-container" "text-center">
+                                <h2 class="blue-text tm-title" style: align ="center">About</h2>
+                                <p class="tm-news-text">I am an Asian American and a current senior at Bucknell University studying Computer Science and Engineering! As a first generation college student pursuing the American Dream, I am passionate about using my education to give back to my community and family.</p>
+                            </div>
+
+                    </div>                    
+               </div>
+           </div> <!-- row -->
+
+        
         <div class = "container">
             <section >
-                <h1>Sample Course Work</h1>
-                <article class = "boarder">Through out the full stack development course, we will be completing several projects to show our understanding of the web development process. This website will serve as a portfolio to showcase the projects we completed in this course. Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text </article>
+                <h1 id="sample" class ="blue-text tm-title" style: align ="center">Sample Course Work</h1>
+                <article class = "boarder">Through out the full stack development course, we will be completing several projects to show our understanding of the web development process. This website will serve as a portfolio to showcase the projects we completed in this course. </article>
             </section>
         </div>
 
-        <div class = "container">
+        <div class = "container tm-section">
             <div class ="row">
                 <section class="col-sm-12 col-md-6 col-lg-4">
                     <h2>Font Fun</h2>
-                        <article class = "boarder"> 
-                            No framework CSS files should even be referenced in your index.html, even if you are not using them. You are going to create your own framework from scratch. You must implement the following breakpoints that will be considered desktop, tablet, and mobile. The browser should display a desktop version of the site when the width of the browser window is 992px and above. Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. The mobile view should appear only if the width of the browser is equal to or less than 767px. <a href="fontfun.html">Font Fun</a>
-                        </article>
+                         <a href="fontfun.html">
+                            <img src="img/font.jpg" alt="Image" class="img-fluid-tm-gallery-img">
+                        </a>
                 </section>
 
 
 
                 <section class="col-sm-12 col-md-6 col-lg-4">
-                    <h2>Latin Scripture</h2>
-                        <article class = "boarder">
-                            Chs. 1-38 reflect a great deal of what we know from other sources about ancient Mesopotamian life and culture. Creation, genealogies, destructive floods, geography and mapmaking, construction techniques, migrations of peoples, sale and purchase of land, legal customs and procedures, sheepherding and cattle-raising -- all these subjects and many others were matters of vital concern to the peoples of Mesopotamia during this time. They were also of interest to the individuals, families and tribes of whom we read in the first 38 chapters of Genesis. The author appears to locate Eden, humankind's first home, in or near Mesopotamia; the tower of Babel was built there; Abram was born there; Isaac took a wife from there; and Jacob lived there for 20 years. Although these patriarchs settled in Canaan, their original homeland was Mesopotamia.
-                        </article>
+                    <h2>Zombie Game</h2>
+                        <a href="zombie.html">
+                            <img src="img/zombie.png" alt="Image" class="img-fluid-tm-gallery-img">
+                        </a>
                 </section>
 
 
                 <section class="col-sm-12 col-md-12 col-lg-4">
-                    <h2>Jeremy Lin</h2>
-                        <article class = "boarder">
-                            Born in Palo Alto, California, in 1988, Jeremy Lin excelled at basketball in high school and in college at Harvard University. He signed with the Golden State Warriors for the 2010-2011 season. After two rejections, Lin ended up with the New York Knicks for the next season. There he quickly became a basketball phenomenon, helping the team secure a string of wins in February 2012. A former college hoops star, Jeremy Lin initially floundered in the NBA. Soon after he was picked up by the New York Knicks, however, Lin proved that he was no underdog. He helped drive the team to a string of victories in February 2012.
-                        </article>
+                    <h2>Optum</h2>
+                        <a href="optum.html">
+                            <img src="img/optum3.jpg" alt="Image" class="img-fluid-tm-gallery-img">
+                        </a>
                 </section> 
             </div>
         </div>
 
+
+          
+
+        <div class="row gray-bg">
+            <!-- footer -->
             <footer class="tm-footer", id = "tm-footer">                
-                    <p class="text-center tm-footer-text" id = "tm-footer-text">Allan La, Computer Science & Engineering, Class of 2018, Contact: al037@bucknell.edu                        
+                    <p class="text-xs-center tm-footer-text" id = "tm-footer-text">Allan La, Computer Science & Engineering, Class of 2018, Contact: al037@bucknell.edu                        
                         <a href="https://www.linkedin.com/in/allanla/" target="_blank"> 
-                            <img src="imgs/LinkedIn.png" width="30" height="30" border="0"> 
+                            <img src="img/LinkedIn.png" width="30" height="30" border="0"> 
                         </a>
 
                         <a href="https://github.com/AllanLa" target="_blank"> 
-                            <img src="imgs/github.png" width="30" height="30" border="0"> 
+                            <img src="img/github.png" width="30" height="30" border="0"> 
                         </a>                            
                     </p>                    
-            </footer> 
+            </footer>  
+       
+        </div> 
         
+        <!-- load JS files -->
+        
+        <script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
+        <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap, http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h --> 
+        <script src="js/bootstrap.min.js"></script>                 <!-- Bootstrap (http://v4-alpha.getbootstrap.com/) -->
+        <script src="js/jquery.singlePageNav.min.js"></script>      <!-- Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->
+        <script src="js/jquery.magnific-popup.min.js"></script>     <!-- Magnific pop-up (http://dimsemenov.com/plugins/magnific-popup/) -->
+        
+        <!-- Templatemo scripts -->
+        <script>     
+       
+            $(document).ready(function(){
 
-    </body>
+                var mobileTopOffset = 54;
+                var desktopTopOffset = 80;
+                var topOffset = desktopTopOffset;
 
+                if($(window).width() <= 767) {
+                    topOffset = mobileTopOffset;
+                }
+                
+                /* Single page nav
+                -----------------------------------------*/
+                $('#tmNavbar').singlePageNav({
+                   'currentClass' : "active",
+                    offset : topOffset,
+                    'filter': ':not(.external)'
+                }); 
+
+                /* Handle nav offset upon window resize
+                -----------------------------------------*/
+                $(window).resize(function(){
+                    if($(window).width() <= 767) {
+                        topOffset = mobileTopOffset;
+                    } 
+                    else {
+                        topOffset = desktopTopOffset;
+                    }
+
+                    $('#tmNavbar').singlePageNav({
+                        'currentClass' : "active",
+                        offset : topOffset,
+                        'filter': ':not(.external)'
+                    });
+                });
+                
+
+                /* Collapse menu after click 
+                -----------------------------------------*/
+                $('#tmNavbar a').click(function(){
+                    $('#tmNavbar').collapse('hide');
+                });
+
+                /* Turn navbar background to solid color starting at section 2
+                ---------------------------------------------------------------*/
+                var target = $("#tm-section-2").offset().top - topOffset;
+
+                if($(window).scrollTop() >= target) {
+                    $(".tm-navbar-container").addClass("bg-inverse");
+                }
+                else {
+                    $(".tm-navbar-container").removeClass("bg-inverse");
+                }
+
+                $(window).scroll(function(){
+                   
+                    if($(this).scrollTop() >= target) {
+                        $(".tm-navbar-container").addClass("bg-inverse");
+                    }
+                    else {
+                        $(".tm-navbar-container").removeClass("bg-inverse");
+                    }
+                });
+
+
+                /* Smooth Scrolling
+                 * https://css-tricks.com/snippets/jquery/smooth-scrolling/
+                --------------------------------------------------------------*/
+                $('a[href*="#"]:not([href="#"])').click(function() {
+                    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+                        && location.hostname == this.hostname) {
+                        
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                        
+                        if (target.length) {
+                            
+                            $('html, body').animate({
+                                scrollTop: target.offset().top - topOffset
+                            }, 1000);
+                            return false;
+                        }
+                    }
+                }); 
+              
+           
+            });
+
+        </script>             
+
+</body>
 </html>
