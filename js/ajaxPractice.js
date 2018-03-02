@@ -1,5 +1,5 @@
 ALL_BREEDS = null
-GENERATED = false
+GENERATED = 0
 
 function getAllBreeds(){
 	fetch('http://dog.ceo/api/breeds/list')
@@ -9,20 +9,27 @@ function getAllBreeds(){
 	  .catch( error => console.log("ERROR", error))		
 }
 
+function get12RandomDogs(){
+	for(var i = 0; i < 12; i++){
+		getRandomDogImage()
+	}
+}
+
 function getRandomDogImage(){
 	fetch('http://dog.ceo/api/breeds/image/random')
 	  .then( response => {
 	  		json = response.json()
 	  		return json
 	  	}).then(jsonResponse => {
-			if (GENERATED) {
-			        removePrevious()
+			if (GENERATED == 12) {
+				   GENERATED = 0
+			       removePrevious()
 			    }	  	
 			var img = new Image()
     		var div = document.getElementById('random')
     		img.src = jsonResponse["message"]
     		div.appendChild(img)
-    		GENERATED = true;
+    		GENERATED ++    		
 	  	})
 	  
 	  .catch( error => console.log("ERROR", error))	
@@ -30,5 +37,7 @@ function getRandomDogImage(){
 
 function removePrevious() {
     var remove = document.getElementById('random')
-    remove.removeChild(remove.childNodes[0])
+    for(var i = 0; i < 12; i++){
+		remove.removeChild(remove.childNodes[i])
+	}    
 }
