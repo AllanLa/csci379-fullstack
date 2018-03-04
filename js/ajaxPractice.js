@@ -28,6 +28,8 @@ function getRandomDogImage(){
 			var img = new Image()
     		var div = document.getElementById('random')
     		img.src = jsonResponse["message"]
+    		img.id = "Image" + GENERATED
+    		img.class = "col-sm-1 col-md-1 col-lg-1"
     		div.appendChild(img)
     		GENERATED ++    		
 	  	})
@@ -36,8 +38,9 @@ function getRandomDogImage(){
 }
 
 function removePrevious() {
-    var remove = document.getElementById('random')
+    
     for(var i = 0; i < 12; i++){
-		remove.removeChild(remove.childNodes[i])
+    	var div = document.getElementById('Image' + i)
+		div.parentNode.removeChild(div)
 	}    
 }
