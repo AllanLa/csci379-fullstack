@@ -2,7 +2,7 @@ ALL_BREEDS = null
 GENERATED = 0
 
 function getAllBreeds(){
-	fetch('http://dog.ceo/api/breeds/list')
+	fetch('https://dog.ceo/api/breeds/list')
 	  .then( response => {
 	  	ALL_BREEDS = response
 	  } )
@@ -16,7 +16,7 @@ function get12RandomDogs(){
 }
 
 function getRandomDogImage(){
-	fetch('http://dog.ceo/api/breeds/image/random')
+	fetch('https://dog.ceo/api/breeds/image/random')
 	  .then( response => {
 	  		json = response.json()
 	  		return json
