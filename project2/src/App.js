@@ -45,7 +45,7 @@ class App extends Component {
     var query = department + "&" + ccc + "&" + limit
     console.log(query)
 
-    fetch('https://eg.bucknell.edu:48484/q?'+ query)
+    fetch('https://www.eg.bucknell.edu/~amm042/service/q?'+ query)
       .then( response => {
           var json = response.json()
           return json
